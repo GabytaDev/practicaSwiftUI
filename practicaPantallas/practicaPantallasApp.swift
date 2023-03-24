@@ -11,7 +11,8 @@ import SwiftUI
 struct practicaPantallasApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           // ContentView()
+            TabViewMain()
         }
     }
 }

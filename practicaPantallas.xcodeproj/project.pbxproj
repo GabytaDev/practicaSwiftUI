@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD3A9FA629C8DBA200B3DCB3 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9FA529C8DBA200B3DCB3 /* TabViewMain.swift */; };
+		DD3A9FA829C8DC1E00B3DCB3 /* VistaHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9FA729C8DC1E00B3DCB3 /* VistaHome.swift */; };
+		DD3A9FAA29C8E6B200B3DCB3 /* VistaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3A9FA929C8E6B200B3DCB3 /* VistaUser.swift */; };
 		DD65A04729BA89B300097997 /* practicaPantallasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65A04629BA89B300097997 /* practicaPantallasApp.swift */; };
 		DD65A04929BA89B300097997 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65A04829BA89B300097997 /* ContentView.swift */; };
 		DD65A04B29BA89B400097997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD65A04A29BA89B400097997 /* Assets.xcassets */; };
 		DD65A04E29BA89B400097997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD65A04D29BA89B400097997 /* Preview Assets.xcassets */; };
+		DD65A05729BA991300097997 /* ProductUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65A05629BA991300097997 /* ProductUIView.swift */; };
+		DD9C6A4629C9EB190043D5AF /* DetailUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9C6A4529C9EB190043D5AF /* DetailUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD3A9FA529C8DBA200B3DCB3 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		DD3A9FA729C8DC1E00B3DCB3 /* VistaHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaHome.swift; sourceTree = "<group>"; };
+		DD3A9FA929C8E6B200B3DCB3 /* VistaUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaUser.swift; sourceTree = "<group>"; };
 		DD65A04329BA89B300097997 /* practicaPantallas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicaPantallas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD65A04629BA89B300097997 /* practicaPantallasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicaPantallasApp.swift; sourceTree = "<group>"; };
 		DD65A04829BA89B300097997 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD65A04A29BA89B400097997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD65A04D29BA89B400097997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD65A05629BA991300097997 /* ProductUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductUIView.swift; sourceTree = "<group>"; };
+		DD9C6A4529C9EB190043D5AF /* DetailUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,16 @@
 		DD65A04529BA89B300097997 /* practicaPantallas */ = {
 			isa = PBXGroup;
 			children = (
+				DD65A05429BA98D200097997 /* sscreens */,
 				DD65A04629BA89B300097997 /* practicaPantallasApp.swift */,
 				DD65A04829BA89B300097997 /* ContentView.swift */,
 				DD65A04A29BA89B400097997 /* Assets.xcassets */,
 				DD65A04C29BA89B400097997 /* Preview Content */,
+				DD65A05529BA98E800097997 /* products */,
+				DD3A9FA529C8DBA200B3DCB3 /* TabViewMain.swift */,
+				DD3A9FA729C8DC1E00B3DCB3 /* VistaHome.swift */,
+				DD3A9FA929C8E6B200B3DCB3 /* VistaUser.swift */,
+				DD9C6A4529C9EB190043D5AF /* DetailUser.swift */,
 			);
 			path = practicaPantallas;
 			sourceTree = "<group>";
@@ -65,6 +81,21 @@
 				DD65A04D29BA89B400097997 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD65A05429BA98D200097997 /* sscreens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sscreens;
+			sourceTree = "<group>";
+		};
+		DD65A05529BA98E800097997 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				DD65A05629BA991300097997 /* ProductUIView.swift */,
+			);
+			path = products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3A9FAA29C8E6B200B3DCB3 /* VistaUser.swift in Sources */,
 				DD65A04929BA89B300097997 /* ContentView.swift in Sources */,
+				DD3A9FA829C8DC1E00B3DCB3 /* VistaHome.swift in Sources */,
+				DD65A05729BA991300097997 /* ProductUIView.swift in Sources */,
 				DD65A04729BA89B300097997 /* practicaPantallasApp.swift in Sources */,
+				DD9C6A4629C9EB190043D5AF /* DetailUser.swift in Sources */,
+				DD3A9FA629C8DBA200B3DCB3 /* TabViewMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
